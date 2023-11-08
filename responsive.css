@@ -1,0 +1,134 @@
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+ @media only screen and (max-width: 1200px) {
+
+ }
+
+  /* Large devices (laptops/desktops, 992px and up) */
+ @media only screen and (max-width: 992px) {
+    .side_btn{
+        display: block;
+    }
+    .nav_items{
+        display: none !important;
+    }
+    .search_btn{
+        padding-left: 15px;
+    }
+    .show {
+        display: flex !important;
+        flex-direction: column;
+        background: #2c2c2c;
+        position: fixed;
+        top: 77px;
+        left: 0;
+        right: 0;
+        padding: 25px 74px;
+        line-height: 38px;
+        gap: 9px;
+    }
+    .nav_items{
+        display: flex;
+        align-items: start;
+    }
+    .nav_items.show ul{
+        display: flex;
+        flex-direction: column;
+        align-items: start !important;
+    }
+    .our_services{
+        flex-wrap: wrap;
+    }
+    .services_box {
+        width: 48% !important;
+        margin-bottom: 25px;
+    }
+    .what_we_offer_section .section_head p{
+        width: 80%;
+    }
+    .all_what_we{
+        flex-wrap: wrap;
+    }
+    .what_we_box{
+        width: 48%;
+        margin-bottom: 25px;
+    }
+    .testimonial_section .section_head p{
+        width: 80%;
+    }
+    .testimonial_all_content{
+        width: 100%;
+    }
+    footer{
+        flex-wrap: wrap;
+    }
+    .footer_box{
+        width: 48%;
+        margin-bottom: 25px;
+    }
+ }
+ 
+ /* Medium devices (landscape tablets, 768px and up) */
+ @media only screen and (max-width: 768px) {
+    .home_content h2 {
+        font-size: 40px;
+    }
+    .home_content p{
+        width: 80%;
+    }
+    .services_box {
+        width: 45% !important;
+        margin-bottom: 25px;
+    }
+    .our_portfolio{
+        flex-wrap: wrap;
+    }
+    .portfolio_box{
+        width: 48%;
+        margin-bottom: 25px;
+    }
+    .what_we_box{
+        width: 45%;
+    }
+    .footer_box{
+        width: 100%;
+    }
+ }
+ 
+ /* Small devices (portrait tablets and large phones, 600px and up) */
+ @media only screen and (max-width: 600px) {
+    .home_content h2 {
+        font-size: 35px;
+    }
+    .home_content p{
+        width: 95%;
+    }
+    .services_box {
+        width: 100% !important;
+    }
+    .portfolio_box{
+        width: 100%;
+    }
+    .section_head h2{
+        font-size: 30px !important;
+    }
+    .what_we_offer_section .section_head p {
+        width: 100%;
+    }
+    .what_we_box{
+        width: 100%;
+    }
+    .what_we_box h3 {
+        font-size: 22px;
+    }
+    .testimonial_section .section_head p{
+        width: 100%;
+    }
+    .testimonial_btn{
+        display: none;
+    }
+ }
+ 
+ /* Extra small devices (phones, 600px and down) */
+ @media only screen and (max-width: 480px) {
+
+ } 
